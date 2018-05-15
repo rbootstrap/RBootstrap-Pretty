@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?ia68dj');
+  src:  url('icomoon.eot?ia68dj#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?ia68dj') format('truetype'),
+    url('icomoon.woff?ia68dj') format('woff'),
+    url('icomoon.svg?ia68dj#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-boy_hair_style:before {
+  content: "\e900";
+}
+.icon-comb_long_hair:before {
+  content: "\e901";
+}
+.icon-comb_scissors:before {
+  content: "\e902";
+}
+.icon-cosmetics:before {
+  content: "\e903";
+}
+.icon-dresser_comb_scissors:before {
+  content: "\e904";
+}
+.icon-dresser_combing_hair:before {
+  content: "\e905";
+}
+.icon-dresser_shampoo:before {
+  content: "\e906";
+}
+.icon-dresser_straightner:before {
+  content: "\e907";
+}
+.icon-dresser_washing_hair:before {
+  content: "\e908";
+}
+.icon-foam_bottles:before {
+  content: "\e909";
+}
+.icon-girl_hair_cut:before {
+  content: "\e90a";
+}
+.icon-girl_hair_style:before {
+  content: "\e90b";
+}
+.icon-girl_makeup:before {
+  content: "\e90c";
+}
+.icon-hair_brush:before {
+  content: "\e90d";
+}
+.icon-longhair_color:before {
+  content: "\e90e";
+}
+.icon-manicure:before {
+  content: "\e90f";
+}
+.icon-pedicure:before {
+  content: "\e910";
+}
+.icon-salon_massage:before {
+  content: "\e911";
+}
+.icon-scissors:before {
+  content: "\e912";
+}
+.icon-shaving_brush:before {
+  content: "\e913";
+}
+.icon-woman_long_hair:before {
+  content: "\e914";
+}

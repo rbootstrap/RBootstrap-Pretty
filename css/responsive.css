@@ -1,0 +1,268 @@
+@media only screen and (min-width: 250px) and (max-width: 450px) {
+	.navbar-brand > img{
+		width:80%;
+	}	
+
+	.affix .main-header {
+		padding: 6px;
+	}
+	
+	.navbar-toggle
+	{
+		padding:6px;
+	}
+	
+	.affix-top .navbar-header, .affix .navbar-header
+	{
+		padding: 5px 0px 0px 0px;	
+	}
+}
+
+@media only screen and (min-width: 451px) and (max-width: 767px) {
+	
+	.navbar-brand > img{
+		width:80%;
+	}	
+
+	.affix .main-header {
+		padding: 9px;
+	}
+	
+	.navbar-toggle
+	{
+		padding:6px;
+	}
+	
+	.affix-top .navbar-header, .affix .navbar-header
+	{
+		padding: 5px 0px 0px 0px;	
+	}
+}
+
+@media only screen and (min-width: 250px) and (max-width: 767px) {
+	/*======== Navigation ========*/
+	.menu-column .navbar-toggle {
+    	display: block;
+    	float: none;
+    	margin: 0;
+	}
+	
+	.main-header .menu-column {
+		float: left;
+	}
+
+	.navbar-default .navbar-nav > li > a{
+		border-bottom: 1px solid #eeeeee;		
+	}
+
+	.navbar-default .navbar-nav > li:last-child > a{
+		border-bottom: none;	
+	}
+
+	.navbar-nav .open .dropdown-menu{
+		background-color:#666666;
+	}
+	
+	/*======== Get a Quote ========*/
+	.right-column {
+		display:none;
+	}
+
+	/* ================= Header =================*/
+	.header-top .top-right ul li, 
+	.header-top .top-left ul li {
+    	display: inline-block;
+   		float: none;
+	}
+	
+	.header-top .top-right {
+		margin: 10px 0;
+	}
+	
+	.header-top .top-right, 
+	.header-top .top-left {
+		text-align: center;
+		width: 100%;
+	}		
+}
+
+@media handheld, only screen and (max-width: 767px) {
+	/*======== Navigation =========*/
+	.navbar-default .navbar-nav > li > a:after{
+		background:none;	
+	}
+	.navbar-nav > li > a{
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	.navbar-nav > li{	
+		padding: 0px;
+	}
+	.navbar-default .navbar-nav > li > a:focus,
+	.navbar-default .navbar-nav > li > a{	
+		text-align:center;
+	}
+	.navbar-default .navbar-nav > .open > a, 
+	.navbar-default .navbar-nav > .open > a:focus, 
+	.navbar-default .navbar-nav > .open > a:hover{
+		background-color:#e56196;
+		color: #ffffff;
+	}
+	
+	.nav .open > a, .nav .open > a:focus, 
+	.nav .open > a:hover
+	{
+		border-color:#e56196;
+	}
+	
+	.dropdown-menu{	
+		padding:0px;
+	}
+	.dropdown-menu > li > a{
+		display: block;
+		padding: 11px 0px;
+		clear: both;
+		font-weight: 400;
+		line-height: 21px;
+		color: #fff;
+		white-space: nowrap;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+		font-size: 13px;letter-spacing: 1px;
+	}
+	.navbar-collapse{
+		background: #ffffff;
+		border: medium none;
+		padding: 10px 30px;
+		position: fixed;
+		left: 15px;
+		width: 90%;
+		box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a{
+		color:#fff;
+		text-align:center;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, 
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{	
+		background-color: #545454;
+		color: #fff;
+	}
+		
+	/*========= Slider ==========*/
+	.amber-slide-content p{
+		display:none;
+	}
+	
+	.btn-info
+	{
+		margin-bottom:20px;	
+	}
+	
+	/* ============== Our Packages ============== */
+	.package_box
+	{
+		margin-bottom:30px;	
+		width:250px;
+		margin:0 auto;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	/*======== Logo ========*/
+	.navbar-brand
+	{
+		float:none;
+	}
+	
+	.navbar-brand > img
+	{
+		margin: 0 auto;
+	}
+	/*=========== Navigation =============*/
+	.navbar-nav > li{
+		padding:7px 7px;
+	}
+
+	.affix-top #navbar,.affix #navbar  {
+    	padding: 0px 0 0;
+	}
+	/*======== Get a Quote ========*/
+	.navbar-right
+	{
+		float:left!important;	
+	}
+	
+	.right-column {
+		position: absolute;
+		z-index:1000;
+		right: -90px;
+		top: -10px;
+	}		
+}
+
+@media only screen and (max-width: 991px) {
+	/* ================= Slider ================= */
+	.amber-slide-content h3{
+		font-size:32px;
+		line-height:36px;
+	}
+	
+	/* ================= About ================= */
+	.section_about_content	
+	{
+		padding: 20px 34px;	
+	}
+	
+	/* ============== Our Packages ============== */
+	.package_box
+	{
+		margin-bottom:30px;	
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 4000px) {
+	/* ================= Navigation ================= */
+	.navbar-nav > li > .dropdown-menu{
+		margin-top: 40px;
+		display: table;
+		padding: 0px;
+		border:none;
+		border-top: 3px solid #e56196;
+		border-radius: 0px;
+		left: 0;
+		opacity: 0;
+		visibility: hidden;
+		-moz-transition: all .5s ease-in-out;
+		-ms-transition: all .5s ease-in-out;
+		-o-transition: all .5s ease-in-out;
+		-webkit-transition: all .5s ease-in-out;
+		transition: all .5s ease-in-out;
+	}
+	.navbar-nav > li:hover > .dropdown-menu {	
+		margin-top: 10px;
+		opacity: 1;
+		visibility: visible;
+		-moz-transition: all .5s ease-in-out;
+		-ms-transition: all .5s ease-in-out;
+		-o-transition: all .5s ease-in-out;
+		-webkit-transition: all .5s ease-in-out;
+		transition: all .5s ease-in-out;
+	}
+	.dropdown-menu > li > a {	
+		display: block;
+		padding: 10px 0px 10px 15px;
+		clear: both;
+		font-weight: 400;
+		line-height: 21px;
+		color: #fff;
+		white-space: nowrap;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+		font-size: 13px;
+		letter-spacing: 1px;
+	}
+	.dropdown-menu > li:last-child > a {	
+		border-bottom: none;
+	}
+}
+
